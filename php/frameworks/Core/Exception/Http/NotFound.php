@@ -6,4 +6,9 @@ class Core_Exception_Http_NotFound extends Core_Exception_Http
     {
         return 404;
     }
+
+    public function getTitle()
+    {
+        return "Page Not Found";
+    }
 }

@@ -6,4 +6,9 @@ class Core_Exception_Http_Forbidden extends Core_Exception_Http
     {
         return 403;
     }
+    
+    public function getTitle()
+    {
+        return "Forbidden";
+    }
 }
