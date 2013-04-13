@@ -1135,6 +1135,8 @@ jQuery.jqXHR.prototype.onreadystatechange = function (callback) {};
 */
 jQuery.jqXHR.prototype.beforeSend = function (callback) {};
 
+jQuery.jqXHR.prototype.statusCode = {};
+
 /**
  * @param {function()} callback
  * @return {jQuery.jqXHR}
