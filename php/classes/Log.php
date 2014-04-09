@@ -1,6 +1,6 @@
 <?php
 
-namespace shahmirj\core;
+namespace shahmirj\libsj;
 
 class Log
 {
